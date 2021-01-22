@@ -21,11 +21,11 @@ let package = Package(
         .library(name: "AsyncHTTPClient", targets: ["AsyncHTTPClient"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/val-verde/swift-nio.git", .branch("val-verde-mainline")),
-        .package(url: "https://github.com/val-verde/swift-nio-ssl.git", .branch("val-verde-mainline")),
-        .package(url: "https://github.com/val-verde/swift-nio-extras.git", .branch("val-verde-mainline")),
+        .package(url: "https://github.com/val-verde/swift-nio.git", .branch("val-verde-mainline-next")),
+        .package(url: "https://github.com/val-verde/swift-nio-ssl.git", .branch("val-verde-mainline-next")),
+        .package(url: "https://github.com/val-verde/swift-nio-extras.git", .branch("val-verde-mainline-next")),
         .package(url: "https://github.com/apple/swift-nio-transport-services.git", from: "1.5.1"),
-        .package(url: "https://github.com/val-verde/swift-log.git", .branch("val-verde-mainline")),
+        .package(url: "https://github.com/val-verde/swift-log.git", .branch("val-verde-mainline-next")),
     ],
     targets: [
         .target(
